@@ -1,0 +1,6 @@
+[console_scripts]
+add_obstacle = cpmr_ch4.add_obstacle:main
+build_map = cpmr_ch4.build_map:main
+collect_lidar = cpmr_ch4.collect_lidar:main
+destroy_map = cpmr_ch4.destroy_map:main
+
