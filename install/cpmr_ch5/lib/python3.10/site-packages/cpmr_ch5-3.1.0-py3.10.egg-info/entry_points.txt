@@ -1,0 +1,11 @@
+[console_scripts]
+aruco_laser_target = cpmr_ch5.aruco_laser_target:main
+aruco_target = cpmr_ch5.aruco_target:main
+aruco_targetv2 = cpmr_ch5.aruco_targetv2:main
+canny_edges = cpmr_ch5.canny_edges:main
+good_features = cpmr_ch5.good_features:main
+harris_corners = cpmr_ch5.harris_corners:main
+opencv_camera = cpmr_ch5.opencv_camera:main
+opencv_camera_calibrated = cpmr_ch5.opencv_camera_calibrated:main
+view_camera = cpmr_ch5.view_camera:main
+
