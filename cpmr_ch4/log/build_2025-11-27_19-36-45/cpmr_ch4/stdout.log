@@ -1,0 +1,65 @@
+running egg_info
+creating build/cpmr_ch4/cpmr_ch4.egg-info
+writing build/cpmr_ch4/cpmr_ch4.egg-info/PKG-INFO
+writing dependency_links to build/cpmr_ch4/cpmr_ch4.egg-info/dependency_links.txt
+writing entry points to build/cpmr_ch4/cpmr_ch4.egg-info/entry_points.txt
+writing requirements to build/cpmr_ch4/cpmr_ch4.egg-info/requires.txt
+writing top-level names to build/cpmr_ch4/cpmr_ch4.egg-info/top_level.txt
+writing manifest file 'build/cpmr_ch4/cpmr_ch4.egg-info/SOURCES.txt'
+reading manifest file 'build/cpmr_ch4/cpmr_ch4.egg-info/SOURCES.txt'
+writing manifest file 'build/cpmr_ch4/cpmr_ch4.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/common/cpmr_ch4/build/cpmr_ch4/build
+creating /home/common/cpmr_ch4/build/cpmr_ch4/build/lib
+creating /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4
+copying cpmr_ch4/add_obstacle.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4
+copying cpmr_ch4/collect_lidar.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4
+copying cpmr_ch4/build_map.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4
+copying cpmr_ch4/__init__.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4
+copying cpmr_ch4/destroy_map.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4
+running install
+running install_lib
+creating /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4
+copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/add_obstacle.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4
+copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/collect_lidar.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4
+copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/build_map.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4
+copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/__init__.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4
+copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/destroy_map.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4
+byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/add_obstacle.py to add_obstacle.cpython-310.pyc
+byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/collect_lidar.py to collect_lidar.cpython-310.pyc
+byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/build_map.py to build_map.cpython-310.pyc
+byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/destroy_map.py to destroy_map.cpython-310.pyc
+running install_data
+creating /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index
+creating /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index/resource_index
+creating /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index/resource_index/packages
+copying resource/cpmr_ch4 -> /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index/resource_index/packages
+copying package.xml -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4
+creating /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/imu-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/destroy_map.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/sonar-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/laser_sonar_robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/laser-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/lidar-collector.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/build_map.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+copying launch/bumper-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch
+creating /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf
+copying urdf/colors.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf
+copying urdf/scout-laser.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf
+copying urdf/scout-imu.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf
+copying urdf/scout-sonar.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf
+copying urdf/scout-bumper.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf
+copying urdf/scout-laser-sonar.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf
+creating /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/maps
+copying maps/default.json -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/maps
+running install_egg_info
+Copying build/cpmr_ch4/cpmr_ch4.egg-info to /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4-3.1.0-py3.10.egg-info
+running install_scripts
+Installing add_obstacle script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4
+Installing build_map script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4
+Installing collect_lidar script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4
+Installing destroy_map script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4
+writing list of installed files to '/home/common/cpmr_ch4/build/cpmr_ch4/install.log'

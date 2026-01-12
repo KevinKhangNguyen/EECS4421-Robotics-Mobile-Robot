@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.003613] (cpmr_ch4) JobQueued: {'identifier': 'cpmr_ch4', 'dependencies': OrderedDict()}
+[0.004033] (cpmr_ch4) JobStarted: {'identifier': 'cpmr_ch4'}
+[0.100085] (-) TimerEvent: {}
+[0.203809] (-) TimerEvent: {}
+[0.304094] (-) TimerEvent: {}
+[0.404451] (-) TimerEvent: {}
+[0.505608] (-) TimerEvent: {}
+[0.515350] (cpmr_ch4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/cpmr_ch4', 'build', '--build-base', '/home/common/cpmr_ch4/build/cpmr_ch4/build', 'install', '--record', '/home/common/cpmr_ch4/build/cpmr_ch4/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/common/cpmr_ch4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'common', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/common', 'OLDPWD': '/home/common', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2937', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'common', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'common', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/common-vb:@/tmp/.ICE-unix/2289,unix/common-vb:/tmp/.ICE-unix/2289', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3333c500_419c_4339_b96a_0ec8ab958daa', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KUZEG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/common/cpmr_ch4/build/cpmr_ch4', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/common/cpmr_ch4/build/cpmr_ch4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.606343] (-) TimerEvent: {}
+[0.696965] (cpmr_ch4) StdoutLine: {'line': b'running egg_info\n'}
+[0.697607] (cpmr_ch4) StdoutLine: {'line': b'creating build/cpmr_ch4/cpmr_ch4.egg-info\n'}
+[0.697660] (cpmr_ch4) StdoutLine: {'line': b'writing build/cpmr_ch4/cpmr_ch4.egg-info/PKG-INFO\n'}
+[0.697698] (cpmr_ch4) StdoutLine: {'line': b'writing dependency_links to build/cpmr_ch4/cpmr_ch4.egg-info/dependency_links.txt\n'}
+[0.697737] (cpmr_ch4) StdoutLine: {'line': b'writing entry points to build/cpmr_ch4/cpmr_ch4.egg-info/entry_points.txt\n'}
+[0.697773] (cpmr_ch4) StdoutLine: {'line': b'writing requirements to build/cpmr_ch4/cpmr_ch4.egg-info/requires.txt\n'}
+[0.697815] (cpmr_ch4) StdoutLine: {'line': b'writing top-level names to build/cpmr_ch4/cpmr_ch4.egg-info/top_level.txt\n'}
+[0.699841] (cpmr_ch4) StdoutLine: {'line': b"writing manifest file 'build/cpmr_ch4/cpmr_ch4.egg-info/SOURCES.txt'\n"}
+[0.700643] (cpmr_ch4) StdoutLine: {'line': b"reading manifest file 'build/cpmr_ch4/cpmr_ch4.egg-info/SOURCES.txt'\n"}
+[0.701332] (cpmr_ch4) StdoutLine: {'line': b"writing manifest file 'build/cpmr_ch4/cpmr_ch4.egg-info/SOURCES.txt'\n"}
+[0.701394] (cpmr_ch4) StdoutLine: {'line': b'running build\n'}
+[0.701469] (cpmr_ch4) StdoutLine: {'line': b'running build_py\n'}
+[0.701948] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/build/cpmr_ch4/build\n'}
+[0.702008] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/build/cpmr_ch4/build/lib\n'}
+[0.702045] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4\n'}
+[0.703374] (cpmr_ch4) StdoutLine: {'line': b'copying cpmr_ch4/add_obstacle.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4\n'}
+[0.703432] (cpmr_ch4) StdoutLine: {'line': b'copying cpmr_ch4/collect_lidar.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4\n'}
+[0.703467] (cpmr_ch4) StdoutLine: {'line': b'copying cpmr_ch4/build_map.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4\n'}
+[0.703524] (cpmr_ch4) StdoutLine: {'line': b'copying cpmr_ch4/__init__.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4\n'}
+[0.703560] (cpmr_ch4) StdoutLine: {'line': b'copying cpmr_ch4/destroy_map.py -> /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4\n'}
+[0.703595] (cpmr_ch4) StdoutLine: {'line': b'running install\n'}
+[0.703628] (cpmr_ch4) StdoutLine: {'line': b'running install_lib\n'}
+[0.703663] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4\n'}
+[0.703696] (cpmr_ch4) StdoutLine: {'line': b'copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/add_obstacle.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4\n'}
+[0.703732] (cpmr_ch4) StdoutLine: {'line': b'copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/collect_lidar.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4\n'}
+[0.703765] (cpmr_ch4) StdoutLine: {'line': b'copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/build_map.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4\n'}
+[0.703804] (cpmr_ch4) StdoutLine: {'line': b'copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/__init__.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4\n'}
+[0.703839] (cpmr_ch4) StdoutLine: {'line': b'copying /home/common/cpmr_ch4/build/cpmr_ch4/build/lib/cpmr_ch4/destroy_map.py -> /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4\n'}
+[0.703947] (cpmr_ch4) StdoutLine: {'line': b'byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/add_obstacle.py to add_obstacle.cpython-310.pyc\n'}
+[0.704059] (cpmr_ch4) StdoutLine: {'line': b'byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/collect_lidar.py to collect_lidar.cpython-310.pyc\n'}
+[0.704608] (cpmr_ch4) StdoutLine: {'line': b'byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/build_map.py to build_map.cpython-310.pyc\n'}
+[0.705067] (cpmr_ch4) StdoutLine: {'line': b'byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/__init__.py to __init__.cpython-310.pyc\n'}
+[0.707647] (cpmr_ch4) StdoutLine: {'line': b'byte-compiling /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4/destroy_map.py to destroy_map.cpython-310.pyc\n'}
+[0.707731] (-) TimerEvent: {}
+[0.708660] (cpmr_ch4) StdoutLine: {'line': b'running install_data\n'}
+[0.708728] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index\n'}
+[0.708806] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index/resource_index\n'}
+[0.708843] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index/resource_index/packages\n'}
+[0.708920] (cpmr_ch4) StdoutLine: {'line': b'copying resource/cpmr_ch4 -> /home/common/cpmr_ch4/install/cpmr_ch4/share/ament_index/resource_index/packages\n'}
+[0.709033] (cpmr_ch4) StdoutLine: {'line': b'copying package.xml -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4\n'}
+[0.709097] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709167] (cpmr_ch4) StdoutLine: {'line': b'copying launch/imu-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709242] (cpmr_ch4) StdoutLine: {'line': b'copying launch/destroy_map.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709320] (cpmr_ch4) StdoutLine: {'line': b'copying launch/sonar-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709391] (cpmr_ch4) StdoutLine: {'line': b'copying launch/laser_sonar_robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709460] (cpmr_ch4) StdoutLine: {'line': b'copying launch/laser-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709530] (cpmr_ch4) StdoutLine: {'line': b'copying launch/lidar-collector.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709598] (cpmr_ch4) StdoutLine: {'line': b'copying launch/build_map.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709647] (cpmr_ch4) StdoutLine: {'line': b'copying launch/bumper-robot.launch.py -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/launch\n'}
+[0.709682] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf\n'}
+[0.709718] (cpmr_ch4) StdoutLine: {'line': b'copying urdf/colors.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf\n'}
+[0.709752] (cpmr_ch4) StdoutLine: {'line': b'copying urdf/scout-laser.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf\n'}
+[0.709785] (cpmr_ch4) StdoutLine: {'line': b'copying urdf/scout-imu.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf\n'}
+[0.709825] (cpmr_ch4) StdoutLine: {'line': b'copying urdf/scout-sonar.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf\n'}
+[0.709860] (cpmr_ch4) StdoutLine: {'line': b'copying urdf/scout-bumper.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf\n'}
+[0.709894] (cpmr_ch4) StdoutLine: {'line': b'copying urdf/scout-laser-sonar.urdf.xacro -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/urdf\n'}
+[0.709927] (cpmr_ch4) StdoutLine: {'line': b'creating /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/maps\n'}
+[0.713306] (cpmr_ch4) StdoutLine: {'line': b'copying maps/default.json -> /home/common/cpmr_ch4/install/cpmr_ch4/share/cpmr_ch4/maps\n'}
+[0.713393] (cpmr_ch4) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.713434] (cpmr_ch4) StdoutLine: {'line': b'Copying build/cpmr_ch4/cpmr_ch4.egg-info to /home/common/cpmr_ch4/install/cpmr_ch4/lib/python3.10/site-packages/cpmr_ch4-3.1.0-py3.10.egg-info\n'}
+[0.713472] (cpmr_ch4) StdoutLine: {'line': b'running install_scripts\n'}
+[0.732589] (cpmr_ch4) StdoutLine: {'line': b'Installing add_obstacle script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4\n'}
+[0.732707] (cpmr_ch4) StdoutLine: {'line': b'Installing build_map script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4\n'}
+[0.732748] (cpmr_ch4) StdoutLine: {'line': b'Installing collect_lidar script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4\n'}
+[0.732783] (cpmr_ch4) StdoutLine: {'line': b'Installing destroy_map script to /home/common/cpmr_ch4/install/cpmr_ch4/lib/cpmr_ch4\n'}
+[0.732824] (cpmr_ch4) StdoutLine: {'line': b"writing list of installed files to '/home/common/cpmr_ch4/build/cpmr_ch4/install.log'\n"}
+[0.743763] (cpmr_ch4) CommandEnded: {'returncode': 0}
+[0.754741] (cpmr_ch4) JobEnded: {'identifier': 'cpmr_ch4', 'rc': 0}
+[0.755330] (-) EventReactorShutdown: {}
