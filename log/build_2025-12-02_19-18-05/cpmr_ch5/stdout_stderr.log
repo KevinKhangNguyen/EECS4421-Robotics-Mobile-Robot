@@ -1,0 +1,70 @@
+running egg_info
+creating build/cpmr_ch5/cpmr_ch5.egg-info
+writing build/cpmr_ch5/cpmr_ch5.egg-info/PKG-INFO
+writing dependency_links to build/cpmr_ch5/cpmr_ch5.egg-info/dependency_links.txt
+writing entry points to build/cpmr_ch5/cpmr_ch5.egg-info/entry_points.txt
+writing requirements to build/cpmr_ch5/cpmr_ch5.egg-info/requires.txt
+writing top-level names to build/cpmr_ch5/cpmr_ch5.egg-info/top_level.txt
+writing manifest file 'build/cpmr_ch5/cpmr_ch5.egg-info/SOURCES.txt'
+reading manifest file 'build/cpmr_ch5/cpmr_ch5.egg-info/SOURCES.txt'
+writing manifest file 'build/cpmr_ch5/cpmr_ch5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build
+creating /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib
+creating /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/harris_corners.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/view_camera.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/aruco_laser_target.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/good_features.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/__init__.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/canny_edges.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/opencv_camera.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+copying cpmr_ch5/opencv_camera_calibrated.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5
+running install
+running install_lib
+creating /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/harris_corners.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/view_camera.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/aruco_laser_target.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/good_features.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/__init__.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/canny_edges.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/opencv_camera.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+copying /home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/build/lib/cpmr_ch5/opencv_camera_calibrated.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/harris_corners.py to harris_corners.cpython-310.pyc
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/view_camera.py to view_camera.cpython-310.pyc
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/aruco_laser_target.py to aruco_laser_target.cpython-310.pyc
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/good_features.py to good_features.cpython-310.pyc
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/canny_edges.py to canny_edges.cpython-310.pyc
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/opencv_camera.py to opencv_camera.cpython-310.pyc
+byte-compiling /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5/opencv_camera_calibrated.py to opencv_camera_calibrated.cpython-310.pyc
+running install_data
+creating /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/ament_index
+creating /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/ament_index/resource_index
+creating /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/ament_index/resource_index/packages
+copying resource/cpmr_ch5 -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/ament_index/resource_index/packages
+copying package.xml -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying launch/harris-corners-camera-robot.launch.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying launch/good-features-camera-robot.launch.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying launch/view-camera-robot.launch.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying launch/camera-robot.launch.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying launch/aruco-laser-robot.launch.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying launch/canny-edges-camera-robot.launch.py -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying urdf/scout-camera.urdf.xacro -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying urdf/colors.xacro -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+copying urdf/laser-camera.urdf.xacro -> /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/share/cpmr_ch5
+running install_egg_info
+Copying build/cpmr_ch5/cpmr_ch5.egg-info to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/python3.10/site-packages/cpmr_ch5-3.1.0-py3.10.egg-info
+running install_scripts
+Installing aruco_laser_target script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing aruco_target script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing aruco_targetv2 script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing canny_edges script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing good_features script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing harris_corners script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing opencv_camera script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing opencv_camera_calibrated script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+Installing view_camera script to /home/common/CPMR3/ros2_ws/src/cpmr_ch5/install/cpmr_ch5/lib/cpmr_ch5
+writing list of installed files to '/home/common/CPMR3/ros2_ws/src/cpmr_ch5/build/cpmr_ch5/install.log'
